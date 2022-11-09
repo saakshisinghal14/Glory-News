@@ -1,0 +1,9 @@
+.card:hover{
+    border: 1px solid green;
+    padding: 2px;
+    box-shadow: 5px 10px 8px #888888;
+    
+    transition: all 0.5s;
+ 
+   
+}
