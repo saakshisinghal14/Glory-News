@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "47a3575a991642afa37f",
+    "revision": "6cd2c24defde7d5eef58",
     "url": "/Glory-News/static/css/main.a12a3fa3.chunk.css"
   },
   {
-    "revision": "47a3575a991642afa37f",
-    "url": "/Glory-News/static/js/main.47a3575a.chunk.js"
+    "revision": "6cd2c24defde7d5eef58",
+    "url": "/Glory-News/static/js/main.6cd2c24d.chunk.js"
   },
   {
     "revision": "271d1efb744527e0afa6",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/Glory-News/static/media/loading.eacff094.gif"
   },
   {
-    "revision": "d98cd2f3e3cce89d671fa9206f34abc9",
+    "revision": "9ae88b9d04535f4c1d570a4581d35afe",
     "url": "/Glory-News/index.html"
   }
 ];
