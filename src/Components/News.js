@@ -23,7 +23,8 @@ const News=(props)=>  {
   let data=await fetch(url);
   let parsedData=await data.json()
   props.setProgress(70);
- // console.log(parsedData)
+ //console.log("data",data)
+ // console.log("parsedata",parsedData)
   setarticles(parsedData.articles)
   setloading(false)
   settotalResult(parsedData.totalResults)
@@ -39,11 +40,13 @@ const News=(props)=>  {
     }, [])
    
    const handleprevclick= async()=>{
+    
       setpage(page-1)
       updateNews() }
 
  const handleNextclick=async()=>{
-   setpage(page+1)
+
+   setpage(1+page)
     updateNews()  }
  
    
